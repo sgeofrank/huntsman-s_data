@@ -1,0 +1,2176 @@
+<thing Class="Pawn">
+						<def>Human</def>
+						<id>Human1379</id>
+						<map>0</map>
+						<pos>(86, 0, 145)</pos>
+						<rot>2</rot>
+						<faction>Faction_16</faction>
+						<questTags>
+							<li>Quest64.Bestowing</li>
+							<li>Quest64.target</li>
+							<li>Quest92.Bestowing</li>
+							<li>Quest92.target</li>
+							<li>Quest246.Bestowing</li>
+							<li>Quest246.target</li>
+							<li>Quest306.Bestowing</li>
+							<li>Quest306.target</li>
+							<li>Quest318.Bestowing</li>
+							<li>Quest318.target</li>
+							<li>Quest354.Bestowing</li>
+							<li>Quest354.target</li>
+							<li>Quest400.Bestowing</li>
+							<li>Quest400.target</li>
+							<li>Quest488.Bestowing</li>
+							<li>Quest488.target</li>
+						</questTags>
+						<kindDef>Tribesperson</kindDef>
+						<name Class="NameTriple">
+							<first>Exorus</first>
+							<nick>Huntsman</nick>
+							<last>Tadokoro</last>
+						</name>
+						<mindState>
+							<meleeThreat>null</meleeThreat>
+							<enemyTarget>null</enemyTarget>
+							<knownExploder>null</knownExploder>
+							<lastMannedThing>Thing_Turret_Mortar2852560</lastMannedThing>
+							<droppedWeapon>null</droppedWeapon>
+							<thinkData>
+								<keys>
+									<li>-1582184003</li>
+								</keys>
+								<values>
+									<li>73846400</li>
+								</values>
+							</thinkData>
+							<lastJobTag>SatisfyingNeeds</lastJobTag>
+							<lastIngestTick>73833815</lastIngestTick>
+							<nextApparelOptimizeTick>73855652</nextApparelOptimizeTick>
+							<lastEngageTargetTick>73494606</lastEngageTargetTick>
+							<lastAttackTargetTick>73494606</lastAttackTargetTick>
+							<canFleeIndividual>True</canFleeIndividual>
+							<lastMeleeThreatHarmTick>68819705</lastMeleeThreatHarmTick>
+							<lastInventoryRawFoodUseTick>73180475</lastInventoryRawFoodUseTick>
+							<lastDisturbanceTick>-9999999</lastDisturbanceTick>
+							<canLovinTick>73856762</canLovinTick>
+							<canSleepTick>73495528</canSleepTick>
+							<lastTakeRecreationalDrugTick>64872805</lastTakeRecreationalDrugTick>
+							<lastHarmTick>63336013</lastHarmTick>
+							<duty IsNull="True" />
+							<mentalStateHandler>
+								<curState IsNull="True" />
+							</mentalStateHandler>
+							<mentalBreaker />
+							<mentalFitGenerator />
+							<inspirationHandler>
+								<curState>
+									<def>Frenzy_Shoot</def>
+									<age>459493</age>
+									<reason>Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!</reason>
+								</curState>
+							</inspirationHandler>
+							<priorityWork>
+								<prioritizedCell>(-1000, -1000, -1000)</prioritizedCell>
+							</priorityWork>
+							<applyThroneThoughtsTick>73861990</applyThroneThoughtsTick>
+							<applyBedThoughtsOnLeave>True</applyBedThoughtsOnLeave>
+							<lastSelfTendTick>-99999</lastSelfTendTick>
+							<breachingTarget IsNull="True" />
+							<nextInventoryStockTick>61073254</nextInventoryStockTick>
+							<lastBedDefSleptIn>RoyalBed</lastBedDefSleptIn>
+							<babyAutoBreastfeedMoms>
+								<keys />
+								<values />
+							</babyAutoBreastfeedMoms>
+							<babyCaravanBreastfeed>
+								<keys />
+								<values />
+							</babyCaravanBreastfeed>
+							<resurrectTarget IsNull="True" />
+							<lastRangedHarmTick>62961565</lastRangedHarmTick>
+							<lastRotStinkTick>72209733</lastRotStinkTick>
+							<lastCombatantTick>73858000</lastCombatantTick>
+						</mindState>
+						<jobs>
+							<curJob>
+								<commTarget>null</commTarget>
+								<verbToUse>null</verbToUse>
+								<bill>null</bill>
+								<lord>null</lord>
+								<quest>null</quest>
+								<def>Reign</def>
+								<loadID>67191792</loadID>
+								<targetA>Thing_GrandThrone2352788</targetA>
+								<targetB>(86, 0, 144)</targetB>
+								<targetC>Thing_GrandThrone2352788</targetC>
+								<targetQueueA IsNull="True" />
+								<targetQueueB IsNull="True" />
+								<countQueue IsNull="True" />
+								<startTick>73855011</startTick>
+								<placedThings IsNull="True" />
+								<ignoreJoyTimeAssignment>True</ignoreJoyTimeAssignment>
+								<jobGiverThinkTree>Humanlike</jobGiverThinkTree>
+								<psyfocusTargetLast>1</psyfocusTargetLast>
+								<ability>null</ability>
+								<lastJobGiverKey>-1602249510</lastJobGiverKey>
+							</curJob>
+							<curDriver Class="JobDriver_Reign">
+								<curToilIndex>2</curToilIndex>
+								<ticksLeftThisToil>5109</ticksLeftThisToil>
+								<startTick>73855011</startTick>
+								<rotateToFace>B</rotateToFace>
+								<locomotionUrgencySameAs>null</locomotionUrgencySameAs>
+							</curDriver>
+							<jobQueue>
+								<jobs />
+							</jobQueue>
+							<formingCaravanTick>-1</formingCaravanTick>
+						</jobs>
+						<stances>
+							<stunner>
+								<showStunMote>True</showStunMote>
+							</stunner>
+							<stagger>
+								<staggerMoveSpeedFactor>0.17</staggerMoveSpeedFactor>
+							</stagger>
+							<curStance Class="Stance_Mobile" />
+						</stances>
+						<verbTracker>
+							<verbs>
+								<li Class="Verb_MeleeAttackDamage">
+									<loadID>Thing_Human1379_0_Smash</loadID>
+									<currentTarget>Thing_Human4762725</currentTarget>
+									<lastShotTick>-999999</lastShotTick>
+									<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+								</li>
+								<li Class="Verb_MeleeAttackDamage">
+									<loadID>Thing_Human1379_1_Smash</loadID>
+									<lastShotTick>-999999</lastShotTick>
+									<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+								</li>
+								<li Class="Verb_MeleeAttackDamage">
+									<loadID>Thing_Human1379_2_Bite</loadID>
+									<currentTarget>Thing_Human1986647</currentTarget>
+									<lastShotTick>-999999</lastShotTick>
+									<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+								</li>
+								<li Class="Verb_MeleeAttackDamage">
+									<loadID>Thing_Human1379_3_Smash</loadID>
+									<currentTarget>Thing_Human1986647</currentTarget>
+									<lastShotTick>-999999</lastShotTick>
+									<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+								</li>
+							</verbs>
+						</verbTracker>
+						<natives>
+							<verbTracker>
+								<verbs>
+									<li Class="Verb_BeatFire">
+										<loadID>NativeVerbs_Human1379_0</loadID>
+										<lastShotTick>-999999</lastShotTick>
+										<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+									</li>
+									<li Class="Verb_Ignite">
+										<loadID>NativeVerbs_Human1379_1</loadID>
+										<currentTarget>(0, 0, 0)</currentTarget>
+										<currentDestination>(0, 0, 0)</currentDestination>
+										<lastShotTick>-999999</lastShotTick>
+										<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+									</li>
+								</verbs>
+							</verbTracker>
+						</natives>
+						<meleeVerbs>
+							<curMeleeVerb>Verb_CompEquippable_Gun_ChargeRifle738148_0_Smash</curMeleeVerb>
+							<curMeleeVerbUpdateTick>73707763</curMeleeVerbUpdateTick>
+							<terrainVerbs>
+								<def>TileSandstone</def>
+								<tracker>
+									<verbs />
+								</tracker>
+							</terrainVerbs>
+						</meleeVerbs>
+						<rotationTracker />
+						<pather>
+							<moving>False</moving>
+							<nextCell>(86, 0, 145)</nextCell>
+							<nextCellCostInitial>42</nextCellCostInitial>
+							<peMode>OnCell</peMode>
+							<cellsUntilClamor>9</cellsUntilClamor>
+							<lastMovedTick>73858000</lastMovedTick>
+						</pather>
+						<carryTracker>
+							<innerContainer>
+								<maxStacks>1</maxStacks>
+								<innerList />
+							</innerContainer>
+						</carryTracker>
+						<apparel>
+							<wornApparel>
+								<innerList>
+									<li>
+										<def>Apparel_CollarShirt</def>
+										<id>Apparel_CollarShirt5210895</id>
+										<pos>(165, 0, 129)</pos>
+										<health>221</health>
+										<stackCount>1</stackCount>
+										<stuff>Hyperweave</stuff>
+										<questTags IsNull="True" />
+										<quality>Masterwork</quality>
+										<sourcePrecept>null</sourcePrecept>
+										<everSeenByPlayer>True</everSeenByPlayer>
+									</li>
+									<li>
+										<def>Apparel_Pants</def>
+										<id>Apparel_Pants6084577</id>
+										<pos>(165, 0, 130)</pos>
+										<health>200</health>
+										<stackCount>1</stackCount>
+										<stuff>Leather_Thrumbo</stuff>
+										<questTags IsNull="True" />
+										<color>RGBA(0.914, 0.914, 0.914, 1.000)</color>
+										<colorActive>True</colorActive>
+										<quality>Masterwork</quality>
+										<sourcePrecept>null</sourcePrecept>
+										<everSeenByPlayer>True</everSeenByPlayer>
+									</li>
+									<li>
+										<def>Apparel_ArmorMarinePrestige</def>
+										<id>Apparel_ArmorMarinePrestige6049969</id>
+										<pos>(162, 0, 97)</pos>
+										<health>340</health>
+										<stackCount>1</stackCount>
+										<questTags IsNull="True" />
+										<color>RGBA(0.330, 0.330, 0.330, 1.000)</color>
+										<colorActive>True</colorActive>
+										<quality>Masterwork</quality>
+										<sourcePrecept>null</sourcePrecept>
+										<everSeenByPlayer>True</everSeenByPlayer>
+										<codedPawn>null</codedPawn>
+									</li>
+									<li>
+										<def>Apparel_PackJump</def>
+										<id>Apparel_PackJump2719510</id>
+										<pos>(167, 0, 102)</pos>
+										<health>100</health>
+										<stackCount>1</stackCount>
+										<questTags IsNull="True" />
+										<color>RGBA(0.325, 0.580, 0.263, 1.000)</color>
+										<colorActive>True</colorActive>
+										<quality>Good</quality>
+										<sourcePrecept>null</sourcePrecept>
+										<everSeenByPlayer>True</everSeenByPlayer>
+										<remainingCharges>5</remainingCharges>
+										<verbTracker>
+											<verbs>
+												<li Class="Verb_Jump">
+													<loadID>Reloadable_Apparel_PackJump2719510_0</loadID>
+													<lastShotTick>-999999</lastShotTick>
+													<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+												</li>
+											</verbs>
+										</verbTracker>
+									</li>
+									<li>
+										<def>Apparel_ArmorHelmetCataphractPrestige</def>
+										<id>Apparel_ArmorHelmetCataphractPrestige3423473</id>
+										<pos>(160, 0, 104)</pos>
+										<health>108</health>
+										<stackCount>1</stackCount>
+										<questTags IsNull="True" />
+										<color>RGBA(0.325, 0.580, 0.263, 1.000)</color>
+										<colorActive>True</colorActive>
+										<quality>Good</quality>
+										<sourcePrecept>null</sourcePrecept>
+										<everSeenByPlayer>True</everSeenByPlayer>
+										<codedPawn>null</codedPawn>
+									</li>
+								</innerList>
+							</wornApparel>
+							<lockedApparel />
+							<lastApparelWearoutTick>73800250</lastApparelWearoutTick>
+						</apparel>
+						<story>
+							<bodyType>Thin</bodyType>
+							<hairDef>Rockstar</hairDef>
+							<hairColor>RGBA(0.890, 1.000, 0.451, 1.000)</hairColor>
+							<traits>
+								<allTraits>
+									<li>
+										<def>Gay</def>
+										<sourceGene>null</sourceGene>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>Nimble</def>
+										<sourceGene>null</sourceGene>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>FastLearner</def>
+										<sourceGene>null</sourceGene>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>GreatMemory</def>
+										<sourceGene>null</sourceGene>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>Tough</def>
+										<sourceGene>null</sourceGene>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>QuickSleeper</def>
+										<sourceGene>null</sourceGene>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>SpeedOffset</def>
+										<sourceGene>null</sourceGene>
+										<degree>2</degree>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>NaturalMood</def>
+										<sourceGene>null</sourceGene>
+										<degree>2</degree>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>Nerves</def>
+										<sourceGene>null</sourceGene>
+										<degree>2</degree>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>Industriousness</def>
+										<sourceGene>null</sourceGene>
+										<degree>2</degree>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+									<li>
+										<def>Beauty</def>
+										<sourceGene>null</sourceGene>
+										<degree>2</degree>
+										<scenForced>True</scenForced>
+										<suppressedBy>null</suppressedBy>
+									</li>
+								</allTraits>
+							</traits>
+							<birthLastName>Hawke</birthLastName>
+							<favoriteColor>RGBA(0.749, 0.337, 0.584, 1.000)</favoriteColor>
+							<headType>Male_NarrowNormal</headType>
+							<childhood>SoleSurvivor63</childhood>
+						</story>
+						<equipment>
+							<equipment>
+								<innerList>
+									<li>
+										<def>Gun_ChargeRifle</def>
+										<id>Gun_ChargeRifle738148</id>
+										<pos>(163, 0, 119)</pos>
+										<health>100</health>
+										<stackCount>1</stackCount>
+										<questTags IsNull="True" />
+										<verbTracker>
+											<verbs>
+												<li Class="Verb_Shoot">
+													<loadID>CompEquippable_Gun_ChargeRifle738148_0</loadID>
+													<lastShotTick>73494606</lastShotTick>
+													<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+												</li>
+												<li Class="Verb_MeleeAttackDamage">
+													<loadID>CompEquippable_Gun_ChargeRifle738148_0_Smash</loadID>
+													<lastShotTick>-999999</lastShotTick>
+													<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+												</li>
+												<li Class="Verb_MeleeAttackDamage">
+													<loadID>CompEquippable_Gun_ChargeRifle738148_1_Smash</loadID>
+													<lastShotTick>-999999</lastShotTick>
+													<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+												</li>
+												<li Class="Verb_MeleeAttackDamage">
+													<loadID>CompEquippable_Gun_ChargeRifle738148_1_Poke</loadID>
+													<lastShotTick>-999999</lastShotTick>
+													<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+												</li>
+											</verbs>
+										</verbTracker>
+										<sourcePrecept>null</sourcePrecept>
+										<everSeenByPlayer>True</everSeenByPlayer>
+										<title>The Weasel</title>
+										<taleRef>
+											<seed>1390626244</seed>
+											<tale>null</tale>
+										</taleRef>
+										<quality>Masterwork</quality>
+										<codedPawn>null</codedPawn>
+									</li>
+								</innerList>
+							</equipment>
+							<bondedWeapon>null</bondedWeapon>
+						</equipment>
+						<drafter>
+							<autoUndrafter>
+								<lastNonWaitingTick>73707500</lastNonWaitingTick>
+							</autoUndrafter>
+						</drafter>
+						<ageTracker>
+							<ageBiologicalTicks>139689750</ageBiologicalTicks>
+							<birthAbsTicks>-65789232</birthAbsTicks>
+							<growth>1</growth>
+							<nextGrowthCheckTick>9223372036854775807</nextGrowthCheckTick>
+							<ageReversalDemandedAtAgeTicks>108470000</ageReversalDemandedAtAgeTicks>
+							<initializedAgeReversalDemand>True</initializedAgeReversalDemand>
+						</ageTracker>
+						<healthTracker>
+							<hediffSet>
+								<hediffs>
+									<li Class="Hediff_Psylink">
+										<loadID>4921</loadID>
+										<def>PsychicAmplifier</def>
+										<ageTicks>60953266</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>15</index>
+										</part>
+										<severity>5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<level>5</level>
+									</li>
+									<li Class="Hediff_Implant">
+										<loadID>18316</loadID>
+										<def>PsychicReader</def>
+										<ageTicks>48068119</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>15</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+									</li>
+									<li Class="Hediff_AddedPart">
+										<loadID>45694</loadID>
+										<def>BionicLeg</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>55</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45695</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>56</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+										<isFresh>True</isFresh>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45696</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>57</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+										<isFresh>True</isFresh>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45697</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>58</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+										<isFresh>True</isFresh>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45698</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>59</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45699</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>60</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45700</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>61</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45701</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>62</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+									</li>
+									<li Class="Hediff_MissingPart">
+										<loadID>45702</loadID>
+										<def>MissingBodyPart</def>
+										<ageTicks>29630184</ageTicks>
+										<part>
+											<body>Human</body>
+											<index>63</index>
+										</part>
+										<severity>0.5</severity>
+										<visible>True</visible>
+										<combatLogEntry>null</combatLogEntry>
+										<lastInjury>SurgicalCut</lastInjury>
+									</li>
+								</hediffs>
+							</hediffSet>
+							<surgeryBills>
+								<bills />
+							</surgeryBills>
+							<immunity>
+								<imList />
+							</immunity>
+						</healthTracker>
+						<records>
+							<records>
+								<vals>
+									<li>549</li>
+									<li>165</li>
+									<li>287</li>
+									<li>97</li>
+									<li>169</li>
+									<li>32</li>
+									<li>137</li>
+									<li>0</li>
+									<li>4283</li>
+									<li>24</li>
+									<li>233844</li>
+									<li>465</li>
+									<li>5</li>
+									<li>5</li>
+									<li>266</li>
+									<li>2</li>
+									<li>52</li>
+									<li>127</li>
+									<li>726</li>
+									<li>10</li>
+									<li>3</li>
+									<li>895</li>
+									<li>8</li>
+									<li>162</li>
+									<li>3599</li>
+									<li>7301</li>
+									<li>83</li>
+									<li>716</li>
+									<li>10</li>
+									<li>10200</li>
+									<li>3751</li>
+									<li>3714</li>
+									<li>138</li>
+									<li>2256</li>
+									<li>3443.941</li>
+									<li>7</li>
+									<li>1767.723</li>
+									<li>2</li>
+									<li>13</li>
+									<li>850</li>
+									<li>0</li>
+									<li>6</li>
+									<li>3</li>
+									<li>7.382784E+07</li>
+									<li>0</li>
+									<li>0</li>
+									<li>1.151288E+07</li>
+									<li>311440</li>
+									<li>30160</li>
+									<li>2663520</li>
+									<li>8204080</li>
+									<li>3.799344E+07</li>
+									<li>1860880</li>
+									<li>3040</li>
+									<li>4320</li>
+									<li>8568640</li>
+									<li>1087120</li>
+									<li>187440</li>
+									<li>125840</li>
+									<li>45440</li>
+									<li>4935200</li>
+									<li>1391680</li>
+									<li>548560</li>
+									<li>496320</li>
+									<li>760080</li>
+									<li>683040</li>
+									<li>1828560</li>
+									<li>0</li>
+								</vals>
+							</records>
+							<battleActive>null</battleActive>
+							<battleExitTick>73690744</battleExitTick>
+						</records>
+						<inventory>
+							<itemsNotForSale />
+							<unpackedCaravanItems />
+							<innerContainer>
+								<innerList>
+									<li Class="Medicine">
+										<def>MedicineIndustrial</def>
+										<id>MedicineIndustrial6029851</id>
+										<health>60</health>
+										<stackCount>3</stackCount>
+										<questTags IsNull="True" />
+									</li>
+									<li Class="ThingWithComps">
+										<def>MealSimple</def>
+										<id>MealSimple6099151</id>
+										<health>50</health>
+										<stackCount>1</stackCount>
+										<questTags IsNull="True" />
+										<rotProg>22750</rotProg>
+										<ingredients>
+											<li>RawRice</li>
+										</ingredients>
+									</li>
+								</innerList>
+							</innerContainer>
+						</inventory>
+						<filth>
+							<lastTerrainFilthDef>Filth_Dirt</lastTerrainFilthDef>
+							<carriedFilth />
+						</filth>
+						<roping>
+							<hitchingPostInt>null</hitchingPostInt>
+							<ropees />
+						</roping>
+						<needs>
+							<needs>
+								<li Class="Need_Mood">
+									<def>Mood</def>
+									<curLevel>1</curLevel>
+									<thoughts>
+										<memories>
+											<memories>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2591889</otherPawn>
+													<moodPowerFactor>0.93</moodPowerFactor>
+													<age>1152600</age>
+													<opinionOffset>13.95</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human5282842</otherPawn>
+													<age>1058700</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human3821970</otherPawn>
+													<age>1057500</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human3371199</otherPawn>
+													<age>1057050</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human3218014</otherPawn>
+													<age>1056600</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human1986538</otherPawn>
+													<age>1054950</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human4484147</otherPawn>
+													<age>1051050</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human4188290</otherPawn>
+													<age>1050900</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human3028903</otherPawn>
+													<age>1050750</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>FedBaby</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5577725</otherPawn>
+													<age>1007400</age>
+													<opinionOffset>4</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human3886868</otherPawn>
+													<age>1002300</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3854023</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>1002000</age>
+													<opinionOffset>12.3</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human5282842</otherPawn>
+													<age>1001550</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3854023</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>1001250</age>
+													<opinionOffset>12.3</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>ExecutedPrisonerGuilty_Know_Respected</def>
+													<sourcePrecept>Precept_881</sourcePrecept>
+													<otherPawn>Thing_Human3571443</otherPawn>
+													<age>1000800</age>
+													<opinionOffset>20</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2258901</otherPawn>
+													<moodPowerFactor>0.875</moodPowerFactor>
+													<age>997200</age>
+													<opinionOffset>13.125</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human36048</otherPawn>
+													<moodPowerFactor>1.15</moodPowerFactor>
+													<age>727200</age>
+													<opinionOffset>17.25</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2258901</otherPawn>
+													<moodPowerFactor>0.875</moodPowerFactor>
+													<age>723600</age>
+													<opinionOffset>13.125</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2926677</otherPawn>
+													<moodPowerFactor>0.93</moodPowerFactor>
+													<age>709050</age>
+													<opinionOffset>13.95</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human1986579</otherPawn>
+													<moodPowerFactor>1.04</moodPowerFactor>
+													<age>465300</age>
+													<opinionOffset>15.6</opinionOffset>
+												</li>
+												<li>
+													<def>GotMarried</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3854023</otherPawn>
+													<age>446550</age>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>HoneymoonPhase</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3854023</otherPawn>
+													<age>446550</age>
+													<opinionOffset>40</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human4888044</otherPawn>
+													<moodPowerFactor>0.8475</moodPowerFactor>
+													<age>441900</age>
+													<opinionOffset>12.7125</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3854023</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>418200</age>
+													<opinionOffset>12.3</opinionOffset>
+												</li>
+												<li>
+													<def>PawnWithBadOpinionDied</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3623164</otherPawn>
+													<moodPowerFactor>0.181875</moodPowerFactor>
+													<age>401850</age>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2099121</otherPawn>
+													<moodPowerFactor>1.15</moodPowerFactor>
+													<age>382800</age>
+													<opinionOffset>17.25</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2591889</otherPawn>
+													<moodPowerFactor>0.93</moodPowerFactor>
+													<age>326250</age>
+													<opinionOffset>13.95</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>GaveLesson</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5035430</otherPawn>
+													<age>315300</age>
+													<opinionOffset>4</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4045808</otherPawn>
+													<age>293400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4887862</otherPawn>
+													<age>273000</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2926842</otherPawn>
+													<age>266250</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1986652</otherPawn>
+													<age>253350</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3990300</otherPawn>
+													<age>252450</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2460376</otherPawn>
+													<age>250500</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3169619</otherPawn>
+													<age>247050</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1369153</otherPawn>
+													<age>246900</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4045808</otherPawn>
+													<age>244950</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4887862</otherPawn>
+													<age>244500</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human5444627</otherPawn>
+													<age>239250</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3867848</otherPawn>
+													<age>236400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5468675</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>207150</age>
+													<opinionOffset>12.3</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3955396</otherPawn>
+													<age>205950</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2460376</otherPawn>
+													<age>201750</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4888044</otherPawn>
+													<age>191550</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2862733</otherPawn>
+													<age>191250</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1369153</otherPawn>
+													<age>190650</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4888277</otherPawn>
+													<age>190200</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3867848</otherPawn>
+													<age>188400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3321292</otherPawn>
+													<age>187950</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2926617</otherPawn>
+													<age>187500</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1986652</otherPawn>
+													<age>185400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2476035</otherPawn>
+													<age>181650</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2926842</otherPawn>
+													<age>177000</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4025812</otherPawn>
+													<age>143400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human5016299</otherPawn>
+													<age>136050</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human5444627</otherPawn>
+													<age>136050</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2926748</otherPawn>
+													<age>135900</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2475901</otherPawn>
+													<age>134550</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1986579</otherPawn>
+													<age>133800</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human485069</otherPawn>
+													<age>133050</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4887862</otherPawn>
+													<age>130650</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4888277</otherPawn>
+													<age>129150</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1369153</otherPawn>
+													<age>126600</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2475901</otherPawn>
+													<age>124500</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human485069</otherPawn>
+													<age>123000</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3218014</otherPawn>
+													<age>118650</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2591889</otherPawn>
+													<moodPowerFactor>0.93</moodPowerFactor>
+													<age>49350</age>
+													<opinionOffset>0.8414</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2326164</otherPawn>
+													<moodPowerFactor>1.1775</moodPowerFactor>
+													<age>42900</age>
+													<opinionOffset>0.5543</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5282842</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>31350</age>
+													<opinionOffset>0.08240008</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2591889</otherPawn>
+													<age>75900</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2926748</otherPawn>
+													<age>75750</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2099121</otherPawn>
+													<age>74100</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1986538</otherPawn>
+													<age>73050</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1986579</otherPawn>
+													<age>71700</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2365103</otherPawn>
+													<age>71400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4888277</otherPawn>
+													<age>70500</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human559915</otherPawn>
+													<age>69900</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human5282918</otherPawn>
+													<age>69750</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4025812</otherPawn>
+													<age>68250</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human485069</otherPawn>
+													<age>67950</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2460376</otherPawn>
+													<age>63750</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3990300</otherPawn>
+													<age>63600</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2099121</otherPawn>
+													<age>61500</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3867942</otherPawn>
+													<moodPowerFactor>1.0125</moodPowerFactor>
+													<age>58500</age>
+													<opinionOffset>0.6682501</opinionOffset>
+												</li>
+												<li>
+													<def>AteWithoutTable</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>null</otherPawn>
+													<age>57450</age>
+												</li>
+												<li>
+													<def>ReignedInThroneroom</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>null</otherPawn>
+													<age>56100</age>
+													<stageIndex>8</stageIndex>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human4045761</otherPawn>
+													<moodPowerFactor>0.8475</moodPowerFactor>
+													<age>55050</age>
+													<opinionOffset>0.55935</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human4887862</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>49500</age>
+													<opinionOffset>0.5412</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3308336</otherPawn>
+													<moodPowerFactor>1.04</moodPowerFactor>
+													<age>48000</age>
+													<opinionOffset>1.3728</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human4852554</otherPawn>
+													<moodPowerFactor>0.985</moodPowerFactor>
+													<age>47850</age>
+													<opinionOffset>14.775</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5468675</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>41850</age>
+													<opinionOffset>0.5412</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5282829</otherPawn>
+													<moodPowerFactor>1.095</moodPowerFactor>
+													<age>39900</age>
+													<opinionOffset>0.7227001</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human1306471</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>38700</age>
+													<opinionOffset>0.5412</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human2460376</otherPawn>
+													<moodPowerFactor>1.095</moodPowerFactor>
+													<age>38100</age>
+													<opinionOffset>0.7227001</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>DeepTalk</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human4003858</otherPawn>
+													<moodPowerFactor>0.875</moodPowerFactor>
+													<age>37950</age>
+													<opinionOffset>13.125</opinionOffset>
+												</li>
+												<li>
+													<def>JoyActivityInImpressiveRecRoom</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>null</otherPawn>
+													<age>37800</age>
+													<stageIndex>8</stageIndex>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5352445</otherPawn>
+													<moodPowerFactor>0.875</moodPowerFactor>
+													<age>36900</age>
+													<opinionOffset>0.5775</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3321292</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>36900</age>
+													<opinionOffset>1.0824</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5110839</otherPawn>
+													<moodPowerFactor>0.875</moodPowerFactor>
+													<age>36750</age>
+													<opinionOffset>0.5775</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5847195</otherPawn>
+													<moodPowerFactor>1.0675</moodPowerFactor>
+													<age>30750</age>
+													<opinionOffset>1.4091</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human485069</otherPawn>
+													<moodPowerFactor>1.1225</moodPowerFactor>
+													<age>29400</age>
+													<opinionOffset>0.74085</opinionOffset>
+												</li>
+												<li>
+													<def>AteInImpressiveDiningRoom</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>null</otherPawn>
+													<age>24150</age>
+													<stageIndex>6</stageIndex>
+												</li>
+												<li>
+													<def>AteLavishMeal</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>null</otherPawn>
+													<age>24150</age>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>GotSomeLovin</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human3854023</otherPawn>
+													<age>20250</age>
+													<opinionOffset>6</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2475901</otherPawn>
+													<age>19800</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2000964</otherPawn>
+													<age>14850</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1986579</otherPawn>
+													<age>14250</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2312324</otherPawn>
+													<age>13050</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3990300</otherPawn>
+													<age>11700</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3371569</otherPawn>
+													<age>11400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li>
+													<def>SleptInBedroom</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>null</otherPawn>
+													<age>10350</age>
+													<stageIndex>7</stageIndex>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human5110839</otherPawn>
+													<age>6750</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human2312324</otherPawn>
+													<age>5550</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human3972489</otherPawn>
+													<age>5400</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human4025812</otherPawn>
+													<age>4350</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human1986538</otherPawn>
+													<age>3000</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocialCumulative">
+													<def>Chitchat</def>
+													<sourcePrecept>null</sourcePrecept>
+													<otherPawn>Thing_Human5282799</otherPawn>
+													<moodPowerFactor>0.82</moodPowerFactor>
+													<age>1950</age>
+													<opinionOffset>0.5412</opinionOffset>
+												</li>
+												<li Class="Thought_MemorySocial">
+													<def>Lovin_Know_Approved</def>
+													<sourcePrecept>Precept_691</sourcePrecept>
+													<otherPawn>Thing_Human5282918</otherPawn>
+													<age>900</age>
+													<opinionOffset>5</opinionOffset>
+												</li>
+											</memories>
+										</memories>
+									</thoughts>
+									<recentMemory>
+										<lastLightTick>73857957</lastLightTick>
+										<lastOutdoorTick>73856607</lastOutdoorTick>
+									</recentMemory>
+								</li>
+								<li Class="Need_Food">
+									<def>Food</def>
+									<curLevel>0.3559987</curLevel>
+									<lastNonStarvingTick>73857957</lastNonStarvingTick>
+								</li>
+								<li Class="Need_Rest">
+									<def>Rest</def>
+									<curLevel>0.8337495</curLevel>
+								</li>
+								<li Class="Need_Joy">
+									<def>Joy</def>
+									<curLevel>0.7765214</curLevel>
+									<tolerances>
+										<vals>
+											<li>0.8867245</li>
+											<li>0.3185686</li>
+											<li>0</li>
+											<li>0.001662213</li>
+											<li>0.3367122</li>
+											<li>0.1623753</li>
+											<li>0</li>
+											<li>0</li>
+											<li>0</li>
+										</vals>
+									</tolerances>
+									<bored>
+										<vals>
+											<li>True</li>
+											<li>False</li>
+											<li>False</li>
+											<li>False</li>
+											<li>False</li>
+											<li>False</li>
+											<li>False</li>
+											<li>False</li>
+											<li>False</li>
+										</vals>
+									</bored>
+								</li>
+								<li Class="Need_Beauty">
+									<def>Beauty</def>
+									<curLevel>0.9855992</curLevel>
+								</li>
+								<li Class="Need_Comfort">
+									<def>Comfort</def>
+									<curLevel>1</curLevel>
+								</li>
+								<li Class="Need_Outdoors">
+									<def>Outdoors</def>
+									<curLevel>0.9927999</curLevel>
+								</li>
+								<li Class="Need_Indoors">
+									<def>Indoors</def>
+									<curLevel>1</curLevel>
+								</li>
+								<li Class="Need_Chemical_Any">
+									<def>DrugDesire</def>
+									<curLevel>0.5</curLevel>
+								</li>
+								<li Class="Need_RoomSize">
+									<def>RoomSize</def>
+									<curLevel>0.975</curLevel>
+								</li>
+							</needs>
+						</needs>
+						<guest>
+							<hostFaction>null</hostFaction>
+							<slaveFaction>null</slaveFaction>
+							<joinStatus>JoinAsSlave</joinStatus>
+							<interactionMode>NoInteraction</interactionMode>
+							<slaveInteractionMode>NoInteraction</slaveInteractionMode>
+							<spotToWaitInsteadOfEscaping>(-1000, -1000, -1000)</spotToWaitInsteadOfEscaping>
+							<lastPrisonBreakTicks>-1</lastPrisonBreakTicks>
+							<ideoForConversion>null</ideoForConversion>
+							<recruitable>False</recruitable>
+							<lastResistanceInteractionData IsNull="True" />
+							<finalResistanceInteractionData IsNull="True" />
+						</guest>
+						<guilt />
+						<royalty>
+							<titles>
+								<li>
+									<faction>Faction_7</faction>
+									<def>Baron</def>
+									<receivedTick>7451406</receivedTick>
+								</li>
+							</titles>
+							<favor>
+								<keys>
+									<li>Faction_7</li>
+								</keys>
+								<values>
+									<li>36</li>
+								</values>
+							</favor>
+							<highestTitles>
+								<keys>
+									<li>Faction_7</li>
+								</keys>
+								<values>
+									<li>Baron</li>
+								</values>
+							</highestTitles>
+							<heirs>
+								<keys>
+									<li>Faction_7</li>
+								</keys>
+								<values>
+									<li>Thing_Human153599</li>
+								</values>
+							</heirs>
+							<permits>
+								<li>
+									<faction>Faction_7</faction>
+									<title>Acolyte</title>
+									<permit>CallMilitaryAidSmall</permit>
+									<lastUsedTick>72140871</lastUsedTick>
+								</li>
+								<li>
+									<faction>Faction_7</faction>
+									<title>Knight</title>
+									<permit>CallOrbitalStrike</permit>
+									<lastUsedTick>68929500</lastUsedTick>
+								</li>
+								<li>
+									<faction>Faction_7</faction>
+									<title>Praetor</title>
+									<permit>CallMilitaryAidLarge</permit>
+									<lastUsedTick>72140871</lastUsedTick>
+								</li>
+								<li>
+									<faction>Faction_7</faction>
+									<title>Baron</title>
+									<permit>CallTransportShuttle</permit>
+									<lastUsedTick>72028330</lastUsedTick>
+								</li>
+							</permits>
+							<abilities>
+								<li>
+									<def>Speech</def>
+									<Id>874</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastAbility">
+												<loadID>Ability_874_0</loadID>
+												<currentTarget>Thing_Human1379</currentTarget>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_874</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<cooldownTicksDuration>900000</cooldownTicksDuration>
+								</li>
+							</abilities>
+						</royalty>
+						<social>
+							<directRelations>
+								<li>
+									<def>Bond</def>
+									<otherPawn>Thing_Megasloth1995278</otherPawn>
+									<startTicks>35121918</startTicks>
+								</li>
+								<li>
+									<def>Spouse</def>
+									<otherPawn>Thing_Human559915</otherPawn>
+									<startTicks>38723811</startTicks>
+								</li>
+								<li>
+									<def>Spouse</def>
+									<otherPawn>Thing_Human1986579</otherPawn>
+									<startTicks>41177857</startTicks>
+								</li>
+								<li>
+									<def>Bond</def>
+									<otherPawn>Thing_Megasloth2446929</otherPawn>
+									<startTicks>41255807</startTicks>
+								</li>
+								<li>
+									<def>Spouse</def>
+									<otherPawn>Thing_Human3854023</otherPawn>
+									<startTicks>73411473</startTicks>
+								</li>
+							</directRelations>
+							<nextMarriageNameChange>WomansName</nextMarriageNameChange>
+							<relativeInvolvedInRescueQuest>null</relativeInvolvedInRescueQuest>
+							<pregnancyApproaches>
+								<keys>
+									<li>Thing_Human559915</li>
+									<li>Thing_Human1986579</li>
+									<li>Thing_Human3854023</li>
+								</keys>
+								<values>
+									<li>Normal</li>
+									<li>Normal</li>
+									<li>Normal</li>
+								</values>
+							</pregnancyApproaches>
+							<romanceEnableTick>69955872</romanceEnableTick>
+						</social>
+						<psychicEntropy>
+							<currentPsyfocus>0.9550228</currentPsyfocus>
+							<targetPsyfocus>1</targetPsyfocus>
+							<lastMeditationTick>73858000</lastMeditationTick>
+							<limitEntropyAmount>True</limitEntropyAmount>
+						</psychicEntropy>
+						<ownership>
+							<ownedBed>Thing_RoyalBed631113</ownedBed>
+							<assignedMeditationSpot>null</assignedMeditationSpot>
+							<assignedGrave>null</assignedGrave>
+							<assignedThrone>Thing_GrandThrone2352788</assignedThrone>
+							<assignedDeathrestCasket>null</assignedDeathrestCasket>
+						</ownership>
+						<interactions>
+							<lastInteractionTime>73833606</lastInteractionTime>
+							<lastInteraction>Chitchat</lastInteraction>
+						</interactions>
+						<skills>
+							<skills>
+								<li>
+									<def>Shooting</def>
+									<level>17</level>
+									<xpSinceLastLevel>22664.42</xpSinceLastLevel>
+									<passion>Major</passion>
+									<xpSinceMidnight>-130</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Melee</def>
+									<level>7</level>
+									<xpSinceLastLevel>7229.75</xpSinceLastLevel>
+								</li>
+								<li>
+									<def>Construction</def>
+									<level>19</level>
+									<xpSinceLastLevel>-887.6201</xpSinceLastLevel>
+									<passion>Major</passion>
+									<xpSinceMidnight>-260</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Mining</def>
+									<level>7</level>
+									<xpSinceLastLevel>415.6147</xpSinceLastLevel>
+									<xpSinceMidnight>0.8758751</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Cooking</def>
+									<level>10</level>
+									<xpSinceLastLevel>1936.774</xpSinceLastLevel>
+									<xpSinceMidnight>-3.249998</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Plants</def>
+									<level>12</level>
+									<xpSinceLastLevel>8881.568</xpSinceLastLevel>
+									<passion>Major</passion>
+									<xpSinceMidnight>141.1789</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Animals</def>
+									<level>11</level>
+									<xpSinceLastLevel>12918.52</xpSinceLastLevel>
+									<passion>Major</passion>
+									<xpSinceMidnight>-6.499996</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Crafting</def>
+									<level>2</level>
+									<xpSinceLastLevel>1818.209</xpSinceLastLevel>
+								</li>
+								<li>
+									<def>Artistic</def>
+									<xpSinceLastLevel>210.5496</xpSinceLastLevel>
+								</li>
+								<li>
+									<def>Medicine</def>
+									<level>13</level>
+									<xpSinceLastLevel>10837.82</xpSinceLastLevel>
+									<xpSinceMidnight>-19.5</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Social</def>
+									<level>12</level>
+									<xpSinceLastLevel>7827.575</xpSinceLastLevel>
+									<xpSinceMidnight>-12.99999</xpSinceMidnight>
+								</li>
+								<li>
+									<def>Intellectual</def>
+									<level>11</level>
+									<xpSinceLastLevel>8027.189</xpSinceLastLevel>
+									<xpSinceMidnight>6.079485</xpSinceMidnight>
+								</li>
+							</skills>
+							<lastXpSinceMidnightResetTimestamp>73845107</lastXpSinceMidnightResetTimestamp>
+						</skills>
+						<abilities>
+							<abilities>
+								<li Class="Psycast">
+									<def>Stun</def>
+									<Id>236</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_236_0</loadID>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_236</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<lastCastTick>71045056</lastCastTick>
+								</li>
+								<li Class="Psycast">
+									<def>BlindingPulse</def>
+									<Id>237</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_237_0</loadID>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_237</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<lastCastTick>57530553</lastCastTick>
+								</li>
+								<li Class="Psycast">
+									<def>ChaosSkip</def>
+									<Id>450</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_450_0</loadID>
+												<currentTarget>(0, 0, 0)</currentTarget>
+												<currentDestination>(0, 0, 0)</currentDestination>
+												<lastShotTick>-999999</lastShotTick>
+												<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+												<ability>Ability_450</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+								</li>
+								<li Class="Psycast">
+									<def>VertigoPulse</def>
+									<Id>451</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_451_0</loadID>
+												<currentTarget>(48, 0, 130)</currentTarget>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_451</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<lastCastTick>68819819</lastCastTick>
+								</li>
+								<li Class="Psycast">
+									<def>Chunkskip</def>
+									<Id>488</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_488_0</loadID>
+												<currentTarget>(213, 0, 56)</currentTarget>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_488</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<lastCastTick>65593222</lastCastTick>
+								</li>
+								<li Class="Psycast">
+									<def>Wallraise</def>
+									<Id>875</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_875_0</loadID>
+												<currentTarget>(107, 0, 48)</currentTarget>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_875</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<lastCastTick>57174425</lastCastTick>
+								</li>
+								<li Class="Psycast">
+									<def>Berserk</def>
+									<Id>1323</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_1323_0</loadID>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_1323</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<lastCastTick>65502800</lastCastTick>
+								</li>
+								<li Class="Psycast">
+									<def>WordOfTrust</def>
+									<Id>1610</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_1610_0</loadID>
+												<currentTarget>(0, 0, 0)</currentTarget>
+												<currentDestination>(0, 0, 0)</currentDestination>
+												<lastShotTick>-999999</lastShotTick>
+												<canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+												<ability>Ability_1610</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+								</li>
+								<li Class="Psycast">
+									<def>WordOfInspiration</def>
+									<Id>1611</Id>
+									<sourcePrecept>null</sourcePrecept>
+									<verbTracker>
+										<verbs>
+											<li Class="Verb_CastPsycast">
+												<loadID>Ability_1611_0</loadID>
+												<currentTarget>Thing_Human2475901</currentTarget>
+												<lastShotTick>-999999</lastShotTick>
+												<ability>Ability_1611</ability>
+											</li>
+										</verbs>
+									</verbTracker>
+									<lastCastTick>69125731</lastCastTick>
+								</li>
+							</abilities>
+						</abilities>
+						<ideo>
+							<ideo>Ideo_12</ideo>
+							<previousIdeos />
+							<certainty>1</certainty>
+							<babyIdeoExposure IsNull="True" />
+						</ideo>
+						<workSettings>
+							<priorities>
+								<vals>
+									<li>1</li>
+									<li>1</li>
+									<li>1</li>
+									<li>1</li>
+									<li>1</li>
+									<li>1</li>
+									<li>2</li>
+									<li>2</li>
+									<li>4</li>
+									<li>1</li>
+									<li>1</li>
+									<li>2</li>
+									<li>1</li>
+									<li>0</li>
+									<li>0</li>
+									<li>0</li>
+									<li>0</li>
+									<li>4</li>
+									<li>4</li>
+									<li>3</li>
+									<li>1</li>
+								</vals>
+							</priorities>
+						</workSettings>
+						<trader IsNull="True" />
+						<outfits>
+							<curOutfit>Outfit_Huntsman8</curOutfit>
+							<overrideHandler>
+								<forcedAps>
+									<li>Thing_Apparel_ArmorHelmetCataphractPrestige3423473</li>
+									<li>Thing_Apparel_PsyfocusShirt5579009</li>
+									<li>Thing_Apparel_CollarShirt5210895</li>
+									<li>Thing_Apparel_Pants6084577</li>
+									<li>Thing_Apparel_ArmorMarinePrestige6049969</li>
+								</forcedAps>
+							</overrideHandler>
+						</outfits>
+						<drugs>
+							<curAssignedDrugs>DrugPolicy_No drugs2</curAssignedDrugs>
+							<drugTakeRecords>
+								<li>
+									<drug>SmokeleafJoint</drug>
+									<lastTakenTicks>10231488</lastTakenTicks>
+									<timesTakenThisDay>1</timesTakenThisDay>
+									<thisDay>170</thisDay>
+								</li>
+								<li>
+									<drug>Beer</drug>
+									<lastTakenTicks>7151241</lastTakenTicks>
+									<timesTakenThisDay>1</timesTakenThisDay>
+									<thisDay>119</thisDay>
+								</li>
+								<li>
+									<drug>Ambrosia</drug>
+									<lastTakenTicks>64872805</lastTakenTicks>
+									<timesTakenThisDay>1</timesTakenThisDay>
+									<thisDay>1081</thisDay>
+								</li>
+							</drugTakeRecords>
+						</drugs>
+						<foodRestriction>
+							<curRestriction>FoodRestriction_Lavish1</curRestriction>
+							<allowedBabyFoodTypes IsNull="True" />
+						</foodRestriction>
+						<timetable>
+							<times>
+								<li>Sleep</li>
+								<li>Sleep</li>
+								<li>Sleep</li>
+								<li>Sleep</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Anything</li>
+								<li>Sleep</li>
+							</times>
+						</timetable>
+						<playerSettings>
+							<medCare>NormalOrWorse</medCare>
+							<areaAllowed>Area_121_Home</areaAllowed>
+							<master>null</master>
+							<hostilityResponse>Attack</hostilityResponse>
+							<displayOrder>150</displayOrder>
+						</playerSettings>
+						<training IsNull="True" />
+						<style>
+							<nextStyleChangeAttemptTick>59888218</nextStyleChangeAttemptTick>
+							<beardDef>Bushy</beardDef>
+							<faceTattoo>Face_Tiger</faceTattoo>
+							<bodyTattoo>Body_Scar</bodyTattoo>
+						</style>
+						<styleObserver>
+							<styleDominanceThoughtIndex>0</styleDominanceThoughtIndex>
+						</styleObserver>
+						<connections>
+							<connectedThings />
+						</connections>
+						<inventoryStock>
+							<stockEntries>
+								<keys>
+									<li>Medicine</li>
+								</keys>
+								<values>
+									<li>
+										<thingDef>MedicineIndustrial</thingDef>
+										<count>3</count>
+									</li>
+								</values>
+							</stockEntries>
+						</inventoryStock>
+						<treeSightings>
+							<miniTreeSightings />
+							<fullTreeSightings />
+							<superTreeSightings />
+						</treeSightings>
+						<thinker />
+						<mechanitor IsNull="True" />
+						<genes>
+							<xenogenes />
+							<endogenes>
+								<li>
+									<def>Skin_Melanin3</def>
+									<pawn>Thing_Human1379</pawn>
+									<overriddenByGene>null</overriddenByGene>
+									<loadID>580</loadID>
+								</li>
+								<li>
+									<def>Hair_DarkSaturatedReddish</def>
+									<pawn>Thing_Human1379</pawn>
+									<overriddenByGene>null</overriddenByGene>
+									<loadID>581</loadID>
+								</li>
+							</endogenes>
+							<xenotype>Baseliner</xenotype>
+						</genes>
+						<learning IsNull="True" />
+					</thing>
